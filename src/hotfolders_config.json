@@ -1,0 +1,42 @@
+{
+  "conversions": {
+    "/Users/foo/Documents/WatchDir1": {
+      "from": [
+        "7z",
+        "rar",
+        "tar"
+      ],
+      "to": [
+        "7z",
+        "zip"
+	    ],
+      "options": {
+        "autoextractzip": 1,
+        "subdirsearch": 1
+      },
+      "ignore": [
+
+      ]
+    },
+    "/Users/foo/Documents/WatchDir2": {
+      "from": [
+        "png",
+        "gif",
+        "bmp"
+      ],
+      "to": [
+        "gif"
+      ],
+      "options": {
+        "autoextractzip": 0,
+        "subdirsearch": 0
+      },
+      "ignore": [
+
+      ]
+    }
+  },
+  "api_key": [
+    "<api_key here>"
+  ]
+}
