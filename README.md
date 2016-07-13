@@ -26,14 +26,13 @@ We assume that you are either:
 
 * Python 3.x
 * Various libraries:
-	* Watchdog
-     * JSON
-     * Requests
-     * HTTPBasicAuth
-     * Time
-     * Watchdog
-     * os
-     * zipfile
+    * Watchdog
+    * Requests
+    * JSON
+    * HTTPBasicAuth
+    * Time
+    * os
+    * zipfile
 
 ## Getting Started
 
