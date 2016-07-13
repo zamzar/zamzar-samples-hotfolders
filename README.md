@@ -1,4 +1,4 @@
-# HotFolders Converter
+# Hot Folders Converter
 
 A sample Python application which uses the [Zamzar Developer API](https://developers.zamzar.com/) to automatically convert files in user-specified folders into different formats.
 
