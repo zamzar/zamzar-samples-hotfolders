@@ -2,6 +2,11 @@
 
 Here you can see the full list of changes between each Zamzar Dropbox Converter release.
 
+# Version 1.1.0
+
+* Added support for preserving source files after conversion via the `autodelete` option.
+
+
 # Version 1.0.0
 
 Initial release - support for:
