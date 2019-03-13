@@ -4,7 +4,7 @@ A sample Python application which uses the [Zamzar Developer API](https://develo
 
 Use the app to monitor "hot" folders, and perform background conversions of (say) Word documents into PDF's, 7z archive files into ZIP's and PNG's into JPG's.
 
-This code is aimed at developers interested in using the Zamzar file conversion API. If you find any issues please raise them against this repository, since it is monitored by the Zamzar development team. We welcome pull requests, forks and suggestions for improvements. 
+This code is aimed at developers interested in using the Zamzar file conversion API. If you find any issues please raise them against this repository, since it is monitored by the Zamzar development team. We welcome pull requests, forks and suggestions for improvements.
 
 This code is licensed under the [MIT License](License) - we encourage you to take this code and develop on top of it.
 
@@ -89,6 +89,7 @@ To tell the application what directories we wish to monitor for files, and what 
 
 The `hotfolders_config.json` file must have an `api_key` specified in order to use the Zamzar API. You can edit the `hotfolders_config.json` file to define the folders to watch and specify which automatic conversions to perform. There are also 2 option switches for each folder:
 
+* **autodelete** - Should the application automatically delete source files after conversion (`1`) or not (`0`)
 * **autoextractzip** - If .zip files are deteced should the application automatically extract them (`1`) or not (`0`)
 * **subdirsearch** - Should the application recurse down through subdirectories to look for files (`1`) or not (`0`)
 
@@ -105,6 +106,7 @@ The format for creating a folder to watch is:
             "docx"
 	        ],
           "options": {
+            "autodelete": 1,
             "autoextractzip": 0,
             "subdirsearch": 1
           }

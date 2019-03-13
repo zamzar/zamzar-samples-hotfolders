@@ -11,6 +11,7 @@
         "zip"
 	    ],
       "options": {
+        "autodelete": 1,
         "autoextractzip": 1,
         "subdirsearch": 1
       },
@@ -28,6 +29,7 @@
         "gif"
       ],
       "options": {
+        "autodelete": 1,
         "autoextractzip": 0,
         "subdirsearch": 0
       },
