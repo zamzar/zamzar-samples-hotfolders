@@ -134,7 +134,8 @@ class FileMonitor(FileSystemEventHandler):
                 if self.convert(file_name):
                     # The convert function returns true if the conversion was successful, if it was successful we
                     # delete the original file, otherwise print an error message.
-                    self.delete_file(file_name)
+                    if self.option_info["autodelete"] == 1:
+                        self.delete_file(file_name)
                 else:
                     print("Conversion unsuccessful for: " + file_name)
 
